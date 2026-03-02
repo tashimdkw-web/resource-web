@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/nunito/Nunito-Regular.ttf");
+}
+
+*{
+    font-family: Nunito;
+}
+
+body{
+    background-color: #E8E2D6;
+    padding: 0;
+    margin: 0;
+   
+}
+
+h1{
+    font-family: Nunito;
+    font-size: 60px;
+    margin: 20px;
+    text-align: center;
+}
+
+#search-bar{
+    width: auto;
+    height: 100px;
+    background-color: #8FAF9B;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 50% 50%;
+    border-radius: 25px;
+}
+
+#search-input{
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: Nunito;
+    border-radius: 15px;
+    border-radius: 30px;
+    border: 5px solid #565555;
+ 
+}
+
+#search-icon {
+    height: 30px;
+    position: relative;
+    top: 65px;
+    left: 25px;
+}
+
+#search-btn{
+    border: 5px solid #565555;
+    margin-left: 60px;
+    height: 100%;
+    width: 30%;
+    border-radius: 30px;
+    font-family: Nunito;
+    font-size: 25px;
+    box-shadow: 15px;
+}
+
+#filter-chip{
+    width:auto;
+    height: 40%;
+    margin: 20px;
+    margin-top: 40px;
+    border: 6px solid #6F7F5F;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding-right: 5px;
+
+    
+    
+}
+
+
+
+.filter-btn{
+    width: 100%;
+    height: 100%;
+    border: 4px solid #6F7F5F;
+    border-radius: 30px;
+    
+}
+
+.filter-item{
+    
+    margin: 5px;
+    
+}
+
+#filter-title{
+    margin-left: 20px;
+    border: none;
+    
+}
+
+#main-grid{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-space{
+    
+    margin: 10px;
+}
+
+.brand-card{
+    background-color: #8FAF9B;
+    height: 100%;
+    border-radius: 25px;
+    
+}
+
+.pink-card{
+    background-color: #E8B0C5;
+}
